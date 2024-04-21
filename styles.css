@@ -30,6 +30,11 @@
 	background-color: white;
 	margin-bottom: 12px;
 	border-radius: 6px;
+	padding: 0.5rem;
+	font-size: 36px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
 }
 
 .calcu-row {
@@ -56,8 +61,8 @@
 
 /* 
 THINGS TO DO
-[] Interface of calculator
-[] Connect buttons to JS, logging the textcontent of what gets pressed
+[x] Interface of calculator
+[x] Connect buttons to JS, logging the textcontent of what gets pressed
 [] Typing buttons is also detected
 [] Operations (+, -, *, /)
 [] Positive/Negative toggles
